@@ -7,7 +7,7 @@ for CHAIN in AFTER_EXTERNAL_IP EXTERNAL_IP; do
     fi
 done
 
-{{ range $externalIP, $containersByExternalIP := groupBy $ "Env.EXTERNAL_IP" }}
+{{ range $externalIP, $containersByExternalIP := groupBy $ "Env.SERVER_IP" }}
     {{ if $externalIP }}
         # First we remove all existing entries.
         for line in $(iptables --line-numbers --numeric -t nat --list EXTERNAL_IP | awk '$7=="to:{{ $externalIP }}" {print $1}' | tac); do
