@@ -12,7 +12,7 @@ $ docker run --detach \
  --net=host --cap-add=NET_ADMIN --cap-add=NET_RAW \
  --volume /var/run/docker.sock:/var/run/docker.sock \
  --volume /run/xtables.lock:/run/xtables.lock \
- callowaysutton/external-ip
+ callowaysutton/ptero-external-ip
 ```
 
 After that, if any other Docker container has an environment variable `SERVER_IP` set, with an IP address to use for
