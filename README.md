@@ -1,7 +1,7 @@
 # callowaysutton/ptero-external-ip
 # For Pterodactyl
 
-<https://github.com/callowaysutton/ptero-external-ip>
+<https://hub.docker.com/r/callowaysutton/ptero-external-ip>
 
 ## Description
 
