@@ -1,4 +1,6 @@
 # callowaysutton/ptero-external-ip
+<img src="https://img.shields.io/docker/pulls/callowaysutton/ptero-external-ip?style=flat-square"> 
+
 # For Pterodactyl
 
 <https://hub.docker.com/r/callowaysutton/ptero-external-ip>
